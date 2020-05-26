@@ -49,21 +49,6 @@ function getFieldsAndValue(param) {
     return fieldString;
 }
 
-function getNotKeys(params, keys, fields){
-    fields = Object.getOwnPropertyNames(fields);
-    keys = keys.flat();
-
-    fields.forEach((field, index, array) => {
-        if(!keys.include(field)){
-            notKeysString = field + "=" + params[field]
-            if(index != array.length -1){
-                notKeysString = notKeysString + ", "
-            }
-        }
-    });
-    return notKeysString;
-}
-
 function getKeys(params, keys){
     let keysString = ""
     keys = keys.flat();
@@ -83,6 +68,5 @@ module.exports = {
     getValues,
     getFieldsAndValue,
     getKeys,
-    getNotKeys,
     getOptions
 };
