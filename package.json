@@ -1,0 +1,19 @@
+{
+  "name": "cassandra-data-modeler",
+  "version": "1.0.0",
+  "description": "lib para facilitar o uso do cassandra em node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "cassandra",
+    "easier",
+    "facilitate"
+  ],
+  "author": "Gabriel Galante",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^4.5.2"
+  }
+}

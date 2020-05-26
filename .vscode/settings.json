@@ -1,0 +1,13 @@
+{
+    "cassandraWorkbench.activeClusterName": "Local sem senha",
+    "cassandraWorkbench.activeKeyspace": [
+        [
+            "Cluster AllowAllAuthenticator",
+            "whatsapp_optin"
+        ],
+        [
+            "Local sem senha",
+            "whatsapp_optin"
+        ]
+    ]
+}

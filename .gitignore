@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@ggalante7 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+ggalante7
+/
+cassandraDataModeler
+1
+00
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+cassandraDataModeler/.gitignore
+@ggalante7 ggalante7 Initial commit
+bb73e54 now
+104 lines (76 sloc)  1.57 KB
+  
 # Logs
 logs
 *.log
@@ -82,6 +113,10 @@ typings/
 .nuxt
 dist
 
+# Cassandra workbench files
+.cassandraWorkbench.jsonc
+.cassandraWorkbench/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
@@ -102,3 +137,15 @@ dist
 
 # TernJS port file
 .tern-port
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
